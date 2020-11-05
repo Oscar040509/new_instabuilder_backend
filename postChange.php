@@ -161,7 +161,7 @@ include 'Find.php';
 
                     <div class="12u$">
                         <ul class="actions">
-                            <div align="right"  style="margin-right: 5%">
+                            <div align="right"  style="margin-right: 5%;list-style-type: none;">
 
                                 <li><input type="submit" name="Reg" value="查詢"></li>
 

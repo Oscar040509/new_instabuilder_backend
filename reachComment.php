@@ -106,7 +106,7 @@ include 'Find.php';
                         FROM instabuilder.comment as a 
                         join userpost as b on a.post_no = b.post_no
                         join instaaccount as c on c.account_id = b.account_id
-                        group by post_no
+                        group by b.post_no
                         order by account_id,post_no";
                 $result = $db->query($sql);
 //        echo '<table  border="1">';
@@ -119,7 +119,7 @@ include 'Find.php';
 //        echo '</table>';
                 ?>
                     <div class="container-fluid">
-                        <h1 class="mt-4">貼文留言記錄統計</h1>
+                        <h1 class="mt-4">各貼文留言數統計</h1>
                         <input type="search" class="light-table-filter" data-table="table table-bordered" placeholder="請輸入關鍵字"><p>
                         
                         <div class="card mb-4">

@@ -120,7 +120,7 @@ include 'Find.php';
     ?>
 
                     <div class="container-fluid">
-                        <h1 class="mt-4">貼文按讚數量統計</h1>
+                        <h1 class="mt-4">各貼文讚數統計</h1>
                         <input type="search" class="light-table-filter" data-table="table table-bordered" placeholder="請輸入關鍵字"><p>
                         
                         <div class="card mb-4">

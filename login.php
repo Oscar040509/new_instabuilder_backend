@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php
 session_start();
-@include 'find.php';
+@include 'Find.php';
 
 ini_set("display_errors","On");
 error_reporting(E_ALL);

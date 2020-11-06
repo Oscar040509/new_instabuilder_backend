@@ -11,7 +11,7 @@ include 'Find.php';
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Static Navigation - SB Admin</title>
+        <title>Instabuilder PostRenew</title>
         <link href="css/styles.css" rel="stylesheet" />
         <link href="images/logo-rainbow.png"  rel="icon">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>

@@ -3,7 +3,8 @@
 session_start();
 @include 'find.php';
 
-
+ini_set("display_errors","On");
+error_reporting(E_ALL);
 ?>
 <html lang="en">
     <head>

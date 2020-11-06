@@ -5,6 +5,9 @@ session_start();
 include 'Find.php';
 @include '../DataBase.php';
 @logInSure();
+
+ini_set("display_errors","On");
+error_reporting(E_ALL);
 ?>
 <html lang="en">
     <head>

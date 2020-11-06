@@ -2,7 +2,7 @@
 
 <?php
 session_start();
-include 'Find.php';
+include 'find.php';
 @include '../DataBase.php';
 @logInSure();
 

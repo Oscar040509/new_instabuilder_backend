@@ -1,5 +1,5 @@
 <?php
-use Medoo\Medoo;
+//use Medoo\Medoo;
 
 function DB() {
     $hostname = 'instabuilderdb.cmjbghjyygh8.ap-northeast-1.rds.amazonaws.com';
@@ -21,24 +21,24 @@ function DB() {
     }
 }
 
-function DBuseMedoo() {
-    $hostname = 'instabuilderdb.cmjbghjyygh8.ap-northeast-1.rds.amazonaws.com';
-    $username = 'root';
-    $password = 'superman12334667';
-    $db_name = 'instabuilder';
-// Initialize
-    try {
-        $database = new Medoo([
-            'database_type' => 'mysql',
-            'database_name' => $db_name,
-            'server' => $hostname,
-            'username' => $username,
-            'password' => $password,
-            "charset" => "utf8mb4",
-        ]);
-        return $database;
-    } catch (PDOException $e) {
-        echo $e->getMessage();
-    }
-}
+//function DBuseMedoo() {
+//    $hostname = 'instabuilderdb.cmjbghjyygh8.ap-northeast-1.rds.amazonaws.com';
+//    $username = 'root';
+//    $password = 'superman12334667';
+//    $db_name = 'instabuilder';
+//// Initialize
+//    try {
+//        $database = new Medoo([
+//            'database_type' => 'mysql',
+//            'database_name' => $db_name,
+//            'server' => $hostname,
+//            'username' => $username,
+//            'password' => $password,
+//            "charset" => "utf8mb4",
+//        ]);
+//        return $database;
+//    } catch (PDOException $e) {
+//        echo $e->getMessage();
+//    }
+//}
 ?>

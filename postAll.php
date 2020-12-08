@@ -28,7 +28,7 @@ include 'Find.php';
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-                        <a class="dropdown-item" href="login.html">Logout</a>
+                        <a class="dropdown-item" href="login.php">Logout</a>
                     </div>
                 </li>
             </ul>
@@ -87,8 +87,8 @@ include 'Find.php';
                             </a>
                             <div class="collapse" id="reachLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="reachLike.php">貼文按讚數量統計</a>
-                                    <a class="nav-link" href="reachComment.php">貼文記錄查詢</a>
+                                    <a class="nav-link" href="reachLike.php">按讚數量統計</a>
+                                    <a class="nav-link" href="reachComment.php">貼文數量統計</a>
                                 </nav>
                             </div>
                         </div>
@@ -121,7 +121,7 @@ include 'Find.php';
                 ?>
 
                     <div class="container-fluid">
-                        <h1 class="mt-4">帳戶總覽</h1>
+                        <h1 class="mt-4">貼文總覽</h1>
                         <input type="search" class="light-table-filter" data-table="table table-bordered" placeholder="請輸入關鍵字"><p>
                         
                         <div class="card mb-4">

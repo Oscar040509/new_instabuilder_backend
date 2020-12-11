@@ -108,7 +108,7 @@ error_reporting(E_ALL);
                             <div class="collapse" id="reachLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="reachLike.php">按讚數量統計</a>
-                                    <a class="nav-link" href="reachComment.php">貼文數量統計</a>
+                                    <a class="nav-link" href="reachComment.php">留言數量統計</a>
                                 </nav>
                             </div>
                         </div>
